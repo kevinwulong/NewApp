@@ -1,7 +1,7 @@
 <template>
 <div class="header_box">
         <div class="header">
-                       <span class="title">全 部</span>
+                       <span class="title">首页</span>
                        <div class="menuBtn" @click="showMenu">
                                 <img src="../assets/img/menu.png" width="40" height="40">
                        </div> 
@@ -36,7 +36,7 @@ export default {
              let menu = this.$refs.sidebar
             let timer
             timer = setInterval(() => {
-                if (menu.offsetLeft === -200) {
+                if (menu.offsetLeft === -150) {
                     clearInterval(timer)
                 }
                 else {
@@ -66,27 +66,39 @@ export default {
                 z-index: 100
                 position:absolute
                 top:0
-                left:-200px
-                width:200px
+                left:-150px
+                width:150px
                 height :100%
-                background:#fff
                 span
                     display:block
                     width:100%
-                    height:10%
+                    height:49px
                     text-align:right
-                    position:relative
-                    right:10px
-                    top:2%
+                    position:absolute
+                    top:0
+                    left:0
+                    background:rgb(6, 99, 192)
+                    img
+                             position:relative
+                             right:10px
+                             top:10px
                 .router
-                    height:90%
                     width:100%
+                    position:absolute
+                    top:49px
+                    left:0
+                    right:0
+                    bottom:0
+                    background:rgba(250,250,250,0.8)
                     & a
                              display:block
-                             width:200px
-                             height:20%
+                             width:150px
+                             height:25%
                              text-align:center
                              color:black
+                             line-height:150px
+                             border-top:1px solid #ccc
+
                     
 
 </style>
