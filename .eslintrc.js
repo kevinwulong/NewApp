@@ -26,7 +26,11 @@ module.exports = {
     'indent': 0,
     'space-before-function-paren': 0,
     'space-infix-ops': 0,
-    'brace-style': 0
+    'brace-style': 0,
+    'no-tabs': 0,
+    'no-mixed-spaces-and-tabs': 0,
+    'no-trailing-spaces': 0,
+    'spaced-comment': 0
 
   }
 }
