@@ -7,7 +7,7 @@
         <div class="sidebar" ref="sidebar">   
                               <router-link  to="/">首页</router-link>
                               <router-link  to="/topic">球鞋</router-link>
-                              <router-link  to="/discover">美图</router-link>
+                              <router-link  to="/image">美图</router-link>
                               <router-link  to="/about">关于</router-link>
         </div>
 </div>
@@ -36,8 +36,8 @@ export default {
 <style lang="stylus">
 .header 
     height:50px
-    background:rgb(43, 45, 66)
-    color:#fff
+    background:rgb(237, 242, 244)
+    color:black
     text-align:center
     font-size:18px
     line-height:50px
@@ -64,8 +64,8 @@ export default {
                          line-height:50px
                          text-decoration:none
                          text-align:center
-                         color:#fff
-                         background:rgb(43, 45, 66)
+                         color:black
+                         background:rgb(237, 242, 244)
                          font-weight:50
                        
 

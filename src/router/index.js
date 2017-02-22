@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Main from 'views/main'
-import News from 'views/news'
+import Image from 'views/image'
 Vue.use(Router)
 
 export default new Router({
@@ -12,9 +12,9 @@ export default new Router({
       component: Main
     },
      {
-      path: '/news',
-      name: 'news',
-      component: News
+      path: '/image',
+      name: 'image',
+      component: Image
     }
   ]
 })
