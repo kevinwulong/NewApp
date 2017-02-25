@@ -1,13 +1,13 @@
 <template>
 <div class="header_box">
         <div class="header">
-                       <span class="title">{{titleName}}</span>
+                       <span class="title" >{{titleName}}</span>
                        <span class="back" v-show="back"  @click="hide"><img src="../assets/img/back.png" width="30" ></span>
         </div>
         <div class="sidebar" ref="sidebar">   
                               <router-link  to="/">首页</router-link>
                               <router-link  to="/topic">球鞋</router-link>
-                              <router-link  to="/image">美图</router-link>
+                              <router-link  to="/image" >美图</router-link>
                               <router-link  to="/about">关于</router-link>
         </div>
 </div>

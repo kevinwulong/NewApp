@@ -64,14 +64,14 @@ export default {
         itemShow: false,
         contentShow: true,
         itemContent: [],
-        itemNum: 7
+        itemNum: 10
       }
     },
     methods: {
       loadMore() {
       	setTimeout(() => {
       		this.itemNum+=3
-      	}, 250)
+      	}, 500)
       },
       selectItem(newItem, event) {
         this.item= newItem

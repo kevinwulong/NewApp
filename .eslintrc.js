@@ -30,7 +30,8 @@ module.exports = {
     'no-tabs': 0,
     'no-mixed-spaces-and-tabs': 0,
     'no-trailing-spaces': 0,
-    'spaced-comment': 0
+    'spaced-comment': 0,
+    'no-unused-vars': 0
 
   }
 }
